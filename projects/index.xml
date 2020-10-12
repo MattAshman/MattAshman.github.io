@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Matthew Ashman</title>
+    <link>http://MattAshman.github.io/projects/</link>
+    <description>Recent content in Projects on Matthew Ashman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate><atom:link href="http://MattAshman.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spatio-Temporal Variational Autoencoders</title>
+      <link>http://MattAshman.github.io/projects/sgpvae/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>http://MattAshman.github.io/projects/sgpvae/</guid>
+      <description>Supervised by Dr Richard Turner.
+[thesis]
+For my M.Phil. thesis, we saught to advance spatio-temporal dataset modelling through the establishment of a fraamework for the amalgamation of Gaussian processes and variational autoencoderss. In carrying out this research, we introduced a novel family of VAEs for modelling spatio-temporal data - the SGP-VAE - characterised by the use of a sparse structured approximate posterior. Our approach marked the first to enable amortised inference in multi-output sparse GPs.</description>
+    </item>
+    
+  </channel>
+</rss>
