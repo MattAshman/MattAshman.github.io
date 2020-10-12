@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matthew Ashman</title>
-    <link>http://MattAshman.github.io/</link>
+    <link>https://MattAshman.github.io/</link>
     <description>Recent content on Matthew Ashman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate><atom:link href="http://MattAshman.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate><atom:link href="https://MattAshman.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://MattAshman.github.io/about/</link>
+      <link>https://MattAshman.github.io/about/</link>
       <pubDate>Wed, 23 Sep 2020 18:23:54 +0100</pubDate>
       
-      <guid>http://MattAshman.github.io/about/</guid>
+      <guid>https://MattAshman.github.io/about/</guid>
       <description>I&amp;rsquo;m a Ph.D. student in the Machine Learning Group at the University of Cambridge, supervised by Dr Adrian Weller. I am interested in developing probabilistic models, with a particular focus on the application of Bayesian deep learning, approximate inference and Gaussian processes.</description>
     </item>
     
     <item>
       <title>Spatio-Temporal Variational Autoencoders</title>
-      <link>http://MattAshman.github.io/projects/sgpvae/</link>
+      <link>https://MattAshman.github.io/projects/sgpvae/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>http://MattAshman.github.io/projects/sgpvae/</guid>
+      <guid>https://MattAshman.github.io/projects/sgpvae/</guid>
       <description>Supervised by Dr Richard Turner.
 [thesis]
 For my M.Phil. thesis, we saught to advance spatio-temporal dataset modelling through the establishment of a fraamework for the amalgamation of Gaussian processes and variational autoencoderss. In carrying out this research, we introduced a novel family of VAEs for modelling spatio-temporal data - the SGP-VAE - characterised by the use of a sparse structured approximate posterior. Our approach marked the first to enable amortised inference in multi-output sparse GPs.</description>
