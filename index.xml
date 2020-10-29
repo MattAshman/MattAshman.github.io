@@ -22,7 +22,7 @@
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
       <guid>https://MattAshman.github.io/projects/sgpvae/</guid>
-      <description>Supervised by Dr Richard Turner.
+      <description>Supervised by Professor Richard E. Turner.
 [thesis]
 For my M.Phil. thesis, we saught to advance spatio-temporal dataset modelling through the establishment of a fraamework for the amalgamation of Gaussian processes and variational autoencoderss. In carrying out this research, we introduced a novel family of VAEs for modelling spatio-temporal data - the SGP-VAE - characterised by the use of a sparse structured approximate posterior. Our approach marked the first to enable amortised inference in multi-output sparse GPs.</description>
     </item>
