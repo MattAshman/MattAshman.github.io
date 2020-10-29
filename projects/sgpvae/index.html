@@ -11,7 +11,7 @@
 <meta name="keywords" content="machine,learning,phd,student,cambridge,mlg,bayesian,gaussian,processes">
 
 <title>
-  Matthew Ashman - Spatio-Temporal Variational Autoencoders 
+  Matthew Ashman - Sparse Gaussian Process Variational Autoencoders 
 </title>
 
 <meta name="generator" content="Hugo 0.75.1" />
@@ -40,7 +40,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Spatio-Temporal Variational Autoencoders</h1>
+  <h1 class="title">Sparse Gaussian Process Variational Autoencoders</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -64,9 +64,9 @@
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-    <p><em>Supervised by <a href="http://learning.eng.cam.ac.uk/Public/Turner/WebHome">Professor Richard E. Turner</a>.</em></p>
-<p><a href="/files/mphil_thesis.pdf">[thesis]</a></p>
-<p>For my M.Phil. thesis, we saught to advance spatio-temporal dataset modelling through the establishment of a fraamework for the amalgamation of Gaussian processes and variational autoencoderss. In carrying out this research, we introduced a novel family of VAEs for modelling spatio-temporal data - the SGP-VAE - characterised by the use of a sparse structured approximate posterior. Our approach marked the first to enable amortised inference in multi-output sparse GPs.</p>
+    <p><em>Collaboration with <a href="http://mlg.eng.cam.ac.uk/?portfolio=jonathan-so">Jonathan So</a>, <a href="https://willtebbutt.github.io/">Will Tebbutt</a>, <a href="https://fortuin.github.io/">Vincent Fortuin</a>, <a href="https://bayesianblog.com/about/">Michael Pearce</a> and <a href="http://learning.eng.cam.ac.uk/Public/Turner/WebHome">Professor Richard E. Turner</a>.</em></p>
+<p><a href="https://arxiv.org/abs/2010.10177">[paper]</a></p>
+<p>Large, multi-dimensional spatio-temporal datasets are omnipresent in modern science and engineering. An effective framework for handling such data are Gaussian process deep generative models (GP-DGMs), which employ GP priors over the latent variables of DGMs. Existing approaches for performing inference in GP-DGMs do not support sparse GP approximations based on inducing points, which are essential for the computational efficiency of GPs, nor do they handle missing data &ndash; a natural occurrence in many spatio-temporal datasets &ndash; in a principled manner. We address these shortcomings with the development of the sparse Gaussian process variational autoencoder (SGP-VAE), characterised by the use of partial inference networks for parameterising sparse GP approximations. Leveraging the benefits of amortised variational inference, the SGP-VAE enables inference in multi-output sparse GPs on previously unobserved data with no additional training. The SGP-VAE is evaluated in a variety of experiments where it outperforms alternative approaches including multi-output GPs and structured VAEs.</p>
 
   </div>
 </section>
@@ -90,6 +90,10 @@
 <section id="menu-pane" class="row menu text-center">
   
   
+  <span><a class="menu-item" href="https://MattAshman.github.io/projects/spatiotemporalvae/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/projects">projects</a></span>
   
   
   

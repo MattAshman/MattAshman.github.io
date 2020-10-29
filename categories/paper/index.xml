@@ -6,16 +6,16 @@
     <description>Recent content in paper on Matthew Ashman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate><atom:link href="https://MattAshman.github.io/categories/paper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 22:55:05 -0400</lastBuildDate><atom:link href="https://MattAshman.github.io/categories/paper/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Spatio-Temporal Variational Autoencoders</title>
+      <title>Sparse Gaussian Process Variational Autoencoders</title>
       <link>https://MattAshman.github.io/projects/sgpvae/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      <pubDate>Fri, 02 Oct 2020 22:55:05 -0400</pubDate>
       
       <guid>https://MattAshman.github.io/projects/sgpvae/</guid>
-      <description>Supervised by Professor Richard E. Turner.
-[thesis]
-For my M.Phil. thesis, we saught to advance spatio-temporal dataset modelling through the establishment of a fraamework for the amalgamation of Gaussian processes and variational autoencoderss. In carrying out this research, we introduced a novel family of VAEs for modelling spatio-temporal data - the SGP-VAE - characterised by the use of a sparse structured approximate posterior. Our approach marked the first to enable amortised inference in multi-output sparse GPs.</description>
+      <description>Collaboration with Jonathan So, Will Tebbutt, Vincent Fortuin, Michael Pearce and Professor Richard E. Turner.
+[paper]
+Large, multi-dimensional spatio-temporal datasets are omnipresent in modern science and engineering. An effective framework for handling such data are Gaussian process deep generative models (GP-DGMs), which employ GP priors over the latent variables of DGMs. Existing approaches for performing inference in GP-DGMs do not support sparse GP approximations based on inducing points, which are essential for the computational efficiency of GPs, nor do they handle missing data &amp;ndash; a natural occurrence in many spatio-temporal datasets &amp;ndash; in a principled manner.</description>
     </item>
     
   </channel>
