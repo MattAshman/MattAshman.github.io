@@ -6,7 +6,18 @@
     <description>Recent content in Projects on Matthew Ashman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2020 22:55:05 -0400</lastBuildDate><atom:link href="https://MattAshman.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 08:37:00 +0000</lastBuildDate><atom:link href="https://MattAshman.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scalable Gaussian Process Variational Autoencoders</title>
+      <link>https://MattAshman.github.io/projects/scalablegpvae/</link>
+      <pubDate>Thu, 25 Feb 2021 08:37:00 +0000</pubDate>
+      
+      <guid>https://MattAshman.github.io/projects/scalablegpvae/</guid>
+      <description>Collaboration with Metod Jazbec, Vincent Fortuin, Michael Pearce, Stephen Mandt and Gunnar Rätsch.
+[paper]
+Conventional variational autoencoders fail in modeling correlations between data points due to their use of factorized priors. Amortized Gaussian process inference through GPVAEs has led to significant improvements in this regard, but is still inhibited by the intrinsic complexity of exact GP inference. We improve the scalability of these methods through principled sparse inference approaches. We propose a new scalable GPVAE model that outperforms existing approaches in terms of runtime and memory footprint, is easy to implement, and allows for joint end-to-end optimization of all components.</description>
+    </item>
+    
     <item>
       <title>Sparse Gaussian Process Variational Autoencoders</title>
       <link>https://MattAshman.github.io/projects/sgpvae/</link>
@@ -21,7 +32,7 @@ Large, multi-dimensional spatio-temporal datasets are omnipresent in modern scie
     <item>
       <title>Spatio-Temporal Variational Autoencoders</title>
       <link>https://MattAshman.github.io/projects/spatiotemporalvae/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      <pubDate>Fri, 02 Oct 2020 22:55:05 -0400</pubDate>
       
       <guid>https://MattAshman.github.io/projects/spatiotemporalvae/</guid>
       <description>Supervised by Professor Richard E. Turner.

@@ -6,7 +6,28 @@
     <description>Recent content on Matthew Ashman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2020 22:55:05 -0400</lastBuildDate><atom:link href="https://MattAshman.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 08:37:00 +0000</lastBuildDate><atom:link href="https://MattAshman.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scalable Gaussian Process Variational Autoencoders</title>
+      <link>https://MattAshman.github.io/projects/scalablegpvae/</link>
+      <pubDate>Thu, 25 Feb 2021 08:37:00 +0000</pubDate>
+      
+      <guid>https://MattAshman.github.io/projects/scalablegpvae/</guid>
+      <description>Collaboration with Metod Jazbec, Vincent Fortuin, Michael Pearce, Stephen Mandt and Gunnar Rätsch.
+[paper]
+Conventional variational autoencoders fail in modeling correlations between data points due to their use of factorized priors. Amortized Gaussian process inference through GPVAEs has led to significant improvements in this regard, but is still inhibited by the intrinsic complexity of exact GP inference. We improve the scalability of these methods through principled sparse inference approaches. We propose a new scalable GPVAE model that outperforms existing approaches in terms of runtime and memory footprint, is easy to implement, and allows for joint end-to-end optimization of all components.</description>
+    </item>
+    
+    <item>
+      <title>Inference in Stochastic Processes @ MLG</title>
+      <link>https://MattAshman.github.io/talks/mlg_stochasticprocesses/</link>
+      <pubDate>Thu, 25 Feb 2021 08:33:00 +0000</pubDate>
+      
+      <guid>https://MattAshman.github.io/talks/mlg_stochasticprocesses/</guid>
+      <description>[slides]
+In parametric models, probabilistic inference is most often approached by computing a posterior distribution over model weights. These weights are then marginalised to obtain a distribution over functions and make predictions. If our goal is solely to make good predictions, an appealing alternative is to directly perform inference over the &amp;lsquo;function-space&amp;rsquo; or predictive posterior distribution of our models, without considering the posterior distribution over the weights. Using Gaussian Processes (GPs) as motivation, this talk starts by introducing a method for constructing more general stochastic processes based on combining basis functions with random weights.</description>
+    </item>
+    
     <item>
       <title>Sparse Gaussian Process Variational Autoencoders</title>
       <link>https://MattAshman.github.io/projects/sgpvae/</link>
@@ -19,23 +40,23 @@ Large, multi-dimensional spatio-temporal datasets are omnipresent in modern scie
     </item>
     
     <item>
+      <title>Spatio-Temporal Variational Autoencoders</title>
+      <link>https://MattAshman.github.io/projects/spatiotemporalvae/</link>
+      <pubDate>Fri, 02 Oct 2020 22:55:05 -0400</pubDate>
+      
+      <guid>https://MattAshman.github.io/projects/spatiotemporalvae/</guid>
+      <description>Supervised by Professor Richard E. Turner.
+[thesis]
+For my M.Phil. thesis, we saught to advance spatio-temporal dataset modelling through the establishment of a fraamework for the amalgamation of Gaussian processes and variational autoencoderss. In carrying out this research, we introduced a novel family of VAEs for modelling spatio-temporal data - the SGP-VAE - characterised by the use of a sparse structured approximate posterior. Our approach marked the first to enable amortised inference in multi-output sparse GPs.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://MattAshman.github.io/about/</link>
       <pubDate>Wed, 23 Sep 2020 18:23:54 +0100</pubDate>
       
       <guid>https://MattAshman.github.io/about/</guid>
       <description>I&amp;rsquo;m a Ph.D. student in the Machine Learning Group at the University of Cambridge, supervised by Dr Adrian Weller. I am interested in developing rich probabilistic models, in particular those involving Gaussian processes, and addressing the challenges of performing approximate inference.</description>
-    </item>
-    
-    <item>
-      <title>Spatio-Temporal Variational Autoencoders</title>
-      <link>https://MattAshman.github.io/projects/spatiotemporalvae/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
-      
-      <guid>https://MattAshman.github.io/projects/spatiotemporalvae/</guid>
-      <description>Supervised by Professor Richard E. Turner.
-[thesis]
-For my M.Phil. thesis, we saught to advance spatio-temporal dataset modelling through the establishment of a fraamework for the amalgamation of Gaussian processes and variational autoencoderss. In carrying out this research, we introduced a novel family of VAEs for modelling spatio-temporal data - the SGP-VAE - characterised by the use of a sparse structured approximate posterior. Our approach marked the first to enable amortised inference in multi-output sparse GPs.</description>
     </item>
     
   </channel>
