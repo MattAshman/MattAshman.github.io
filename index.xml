@@ -29,6 +29,17 @@ In parametric models, probabilistic inference is most often approached by comput
     </item>
     
     <item>
+      <title>Variational Bayes as Surrogate Regression @ MLG</title>
+      <link>https://MattAshman.github.io/talks/mlg_vbsurrogateregression/</link>
+      <pubDate>Wed, 10 Feb 2021 13:54:00 +0000</pubDate>
+      
+      <guid>https://MattAshman.github.io/talks/mlg_vbsurrogateregression/</guid>
+      <description>[slides]
+Variational Bayes is a useful approximate inference framework in which an intractable posterior distribution is approximated by simpler tractable one. The extent to which this is useful (usually) depends on how closely this approximation matches reality, and how quickly it can be obtained. We&amp;rsquo;ll present lines of work that utilise the posteriors of tractable models as this approximation, and the interesting inference algorithms that arise in this setting.
+Although we&amp;rsquo;ll cover all of these in the presentation, it will be helpful to have some familiarity with the basics of variational Bayes (e.</description>
+    </item>
+    
+    <item>
       <title>Sparse Gaussian Process Variational Autoencoders</title>
       <link>https://MattAshman.github.io/projects/sgpvae/</link>
       <pubDate>Fri, 02 Oct 2020 22:55:05 -0400</pubDate>

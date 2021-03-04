@@ -17,5 +17,16 @@
 In parametric models, probabilistic inference is most often approached by computing a posterior distribution over model weights. These weights are then marginalised to obtain a distribution over functions and make predictions. If our goal is solely to make good predictions, an appealing alternative is to directly perform inference over the &amp;lsquo;function-space&amp;rsquo; or predictive posterior distribution of our models, without considering the posterior distribution over the weights. Using Gaussian Processes (GPs) as motivation, this talk starts by introducing a method for constructing more general stochastic processes based on combining basis functions with random weights.</description>
     </item>
     
+    <item>
+      <title>Variational Bayes as Surrogate Regression @ MLG</title>
+      <link>https://MattAshman.github.io/talks/mlg_vbsurrogateregression/</link>
+      <pubDate>Wed, 10 Feb 2021 13:54:00 +0000</pubDate>
+      
+      <guid>https://MattAshman.github.io/talks/mlg_vbsurrogateregression/</guid>
+      <description>[slides]
+Variational Bayes is a useful approximate inference framework in which an intractable posterior distribution is approximated by simpler tractable one. The extent to which this is useful (usually) depends on how closely this approximation matches reality, and how quickly it can be obtained. We&amp;rsquo;ll present lines of work that utilise the posteriors of tractable models as this approximation, and the interesting inference algorithms that arise in this setting.
+Although we&amp;rsquo;ll cover all of these in the presentation, it will be helpful to have some familiarity with the basics of variational Bayes (e.</description>
+    </item>
+    
   </channel>
 </rss>
