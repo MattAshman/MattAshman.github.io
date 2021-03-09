@@ -24,7 +24,7 @@ Conventional variational autoencoders fail in modeling correlations between data
       <pubDate>Thu, 25 Feb 2021 08:33:00 +0000</pubDate>
       
       <guid>https://MattAshman.github.io/talks/mlg_stochasticprocesses/</guid>
-      <description>[slides]
+      <description>[slides] [video]
 In parametric models, probabilistic inference is most often approached by computing a posterior distribution over model weights. These weights are then marginalised to obtain a distribution over functions and make predictions. If our goal is solely to make good predictions, an appealing alternative is to directly perform inference over the &amp;lsquo;function-space&amp;rsquo; or predictive posterior distribution of our models, without considering the posterior distribution over the weights. Using Gaussian Processes (GPs) as motivation, this talk starts by introducing a method for constructing more general stochastic processes based on combining basis functions with random weights.</description>
     </item>
     
